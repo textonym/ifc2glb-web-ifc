@@ -1,0 +1,9 @@
+node_modules/
+*.ifc
+*.glb
+*.gltf
+test_exporter.mjs
+diagnose.mjs
+web-ifc-node.wasm
+.DS_Store
+Thumbs.db

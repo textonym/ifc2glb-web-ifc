@@ -1,0 +1,13 @@
+{
+  "name": "ifc2glb-web-ifc",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "convert": "node convert.mjs"
+  },
+  "dependencies": {
+    "jsdom": "^29.0.0",
+    "three": "^0.163.0",
+    "web-ifc": "^0.0.66"
+  }
+}
