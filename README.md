@@ -54,5 +54,15 @@ The output `model.glb` will be generated in the same directory, ready for use in
 - **Tuning**: Geometry quality is set via `CIRCLE_SEGMENTS: 64` in `convert.mjs`.
 - **Environment**: Node.js with `JSDOM` polyfills for `Blob`, `FileReader`, and `URL`.
 
+## Credits & Acknowledgements
+
+This project leverages several open-source libraries and community patterns:
+
+- **[ThatOpenCompany](https://github.com/ThatOpenCompany)** (formerly IFC.js) — For the powerful `web-ifc` engine and WASM binaries that handle complex IFC geometry parsing.
+- **[IFC-Lite](https://github.com/louistrue/ifc-lite)** by **Louis True** — For the original architecture, research, and patterns that inspired this high-quality conversion pipeline.
+- **[Three.js Authors](https://threejs.org/)** — For the industry-standard 3D engine and the `GLTFExporter` used to generate the final models.
+- **[jsdom Authors](https://github.com/jsdom/jsdom)** — For providing the DOM environment necessary to run Three.js exporters in a headless Node.js context.
+- **Three.js Community & Examples** — For the established patterns used to implement headless exports in server-side environments.
+
 ## License
 MIT
