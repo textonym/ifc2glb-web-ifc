@@ -59,7 +59,7 @@ The output `model.glb` will be generated in the same directory, ready for use in
 This project leverages several open-source libraries and community patterns:
 
 - **[ThatOpen/web-ifc](https://github.com/ThatOpen/web-ifc)** — For the powerful `web-ifc` engine and WASM binaries that handle complex IFC geometry parsing.
-- **[IFC-Lite](https://github.com/louistrue/ifc-lite)** by **Louis True** — For the original architecture, research, and patterns that inspired this high-quality conversion pipeline.
+- **[IFC-Lite](https://github.com/louistrue/ifc-lite)** (Licensed under [MPL-2.0](https://github.com/louistrue/ifc-lite/blob/main/LICENSE)) — By **Louis True**. Core architecture, research, and patterns that inspired this high-quality conversion pipeline.
 - **[Three.js](https://github.com/mrdoob/three.js)** — For the industry-standard 3D engine and the `GLTFExporter` used to generate the final models.
 - **[jsdom](https://github.com/jsdom/jsdom)** — For providing the DOM environment necessary to run Three.js exporters in a headless Node.js context.
 - **Three.js Community & Examples** — For the established patterns used to implement headless exports in server-side environments.
