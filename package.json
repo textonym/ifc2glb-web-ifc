@@ -1,6 +1,7 @@
 {
   "name": "ifc2glb-web-ifc",
   "version": "1.0.0",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "convert": "node convert.mjs"
